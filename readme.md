@@ -1,6 +1,6 @@
 # UBUCON
 ## Alternative social platform for the UBUNTU movement.
-![UBUNTU](../images/logo.png "UBUNTU")
+![UBUNTU](./images/logo.svg "UBUNTU")
 
 # Motivation
 Today we have got Facebook, Twitter, Google Plus, WhatsApp and Telegram as platform to chat and to connect to each other.
