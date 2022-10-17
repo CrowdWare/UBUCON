@@ -1,8 +1,8 @@
 # Startup the Net
 We will start with one single device.
 The first user is starting the app.
-The app creates a new user record and stores it on the local database.
-The user posts the first feed, which also will be stored into the database.
+The app creates a new user record and stores it on StorJ.
+The user posts the first feed, which also will be stored on StorJ.
 
 Then the second user starts the app and the above process is done on that device also.
 Now these two people connect to each other via email, telegram, personally or whatever.

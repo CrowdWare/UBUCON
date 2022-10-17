@@ -14,7 +14,7 @@ Create a decentral platform p2p (peer two peer).
 No registration needed, so non friends don't see you at all.
 
 We found that [StorJ](https://www.storj.io/) is a good decentraliced platform to store data.
-Storj is giving us 150 GB of spave for free.  
+Storj is giving us 150 GB of space for free.  
 Imagine that every user has got a 150 GB storage for their newsfeed, pictures and movies and can share this data with friends.  
 We only have to store the address (uuid) of our friends in an index file and via this address we have access to the whole data they provide for us.  
 
@@ -23,7 +23,7 @@ So maybe there is a pub in your town and the pub owner provides his storj-space 
 Btw...all user data is kept anonymous.  
 So, to connect to someone else you have to meet him/her personally first and you have to share addresses (uuid).
 
-If you need more space, because you have got a business running you can rent addional space withg StorJ at a low price.
+If you need more space, because you have got a business running you can rent addional space with StorJ at a low price.
 
 # Plugins
 Plugins will make it possible to integrate small tiny apps inside the social platform.
