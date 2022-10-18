@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UBUCON</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UBUCON</string>
+    <string name="nav_header_subtitle">https://crowdware.github.io/UBUCON/</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_feed">UBUCON</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_marketplace">Marketplace</string>
+    <string name="menu_friendlist">Friendlist</string>
+</resources>

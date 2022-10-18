@@ -5,7 +5,7 @@
    viewBox="0 0 28.575001 28.575001"
    version="1.1"
    id="svg8"
-   sodipodi:docname="icon.svg"
+   sodipodi:docname="icon_round.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    inkscape:export-filename="/Users/art/SourceCode/Shift/src/images/logo.png"
    inkscape:export-xdpi="96"
@@ -66,13 +66,13 @@
      id="layer1"
      style="opacity:1"
      transform="translate(41.502036,14.632894)">
-    <rect
-       style="fill:#ffffff;stroke-width:0.264583"
-       id="rect626"
-       width="18.477976"
-       height="18.630058"
-       x="-36.407284"
-       y="-9.5381432" />
+    <ellipse
+       style="fill:#ffffff;stroke-width:0.261222"
+       id="path659"
+       cx="-27.330671"
+       cy="-0.28971285"
+       rx="14.095323"
+       ry="14.039018" />
     <path
        style="fill:#000000;stroke-width:0.264583"
        id="path915"
@@ -80,7 +80,7 @@
     <g
        inkscape:label="Image"
        id="g278"
-       transform="matrix(0.04520411,0,0,0.04520411,-21.042523,-3.7873855)">
+       transform="matrix(0.06983909,0,0,0.06983909,-17.895892,-5.972635)">
       <path
          style="fill:#000000;stroke-width:1.06667"
          d=""

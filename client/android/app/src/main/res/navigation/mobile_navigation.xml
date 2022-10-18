@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="at.crowdware.ubucon.ui.feed.FeedFragment"
+        android:label="@string/menu_feed"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="at.crowdware.ubucon.ui.messages.MessagesFragment"
+        android:label="@string/menu_messages"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="at.crowdware.ubucon.ui.marketplace.MarketplaceFragment"
+        android:label="@string/menu_marketplace"
+        tools:layout="@layout/fragment_marketplace" />
+
+    <fragment
+        android:id="@+id/nav_friendlist"
+        android:name="at.crowdware.ubucon.ui.friendlist.FriendlistFragment"
+        android:label="@string/menu_friendlist"
+        tools:layout="@layout/fragment_friendlist" />
+</navigation>
