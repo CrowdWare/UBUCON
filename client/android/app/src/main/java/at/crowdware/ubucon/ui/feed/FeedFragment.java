@@ -9,7 +9,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
+import at.crowdware.ubucon.Datasource;
+import at.crowdware.ubucon.FeedAdapter;
 import at.crowdware.ubucon.databinding.FragmentFeedBinding;
 
 public class FeedFragment extends Fragment
@@ -23,8 +28,10 @@ public class FeedFragment extends Fragment
         binding = FragmentFeedBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textFeed;
-        feedViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        Datasource ds = new Datasource();
+        RecyclerView recyclerView = binding.recyclerView;
+        recyclerView.setAdapter(new FeedAdapter(ds.getFeedList()));
+
         return root;
     }
 
